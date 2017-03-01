@@ -50,35 +50,6 @@
                     "path": "common/configure"
                 }
             ]
-        },
-        {
-            "name": "resources",
-            "sources": [
-                {
-                    "type": "file",
-                    "path": "common/configure"
-                },
-                {
-                    "type": "file",
-                    "path": "resources/Makefile"
-                },
-                {
-                    "type": "file",
-                    "path": "resources/install"
-                },
-                {
-                    "type": "file",
-                    "path": "resources/com.visualstudio.Vscode.png"
-                },
-                {
-                    "type": "file",
-                    "path": "resources/com.visualstudio.Vscode.desktop"
-                },
-                {
-                    "type": "file",
-                    "path": "resources/com.visualstudio.Vscode.appdata.xml"
-                }
-            ]
         }
     ]
 }
