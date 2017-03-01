@@ -3,7 +3,7 @@ all:
 	# Install dependencies
 	cd app && ./scripts/npm.sh install
 	# build vscode
-	./node_modules/.bin/gulp "vscode-linux-ia32-prepare-flatpak"
+	cd app && ./node_modules/.bin/gulp "vscode-linux-ia32-prepare-flatpak"
 
 install:
 	./install
