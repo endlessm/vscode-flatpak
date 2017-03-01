@@ -1,0 +1,83 @@
+{
+    "app-id": "com.visualstudio.Vscode",
+    "base": "io.atom.electron.BaseApp",
+    "base-version": "master",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "1.4",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "vscode",
+    "finish-args": [
+        "--device=dri",
+        "--filesystem=home",
+        "--share=ipc",
+        "--share=network",
+        "--socket=pulseaudio",
+        "--socket=x11"
+    ],
+    "modules": [
+        {
+            "name": "nodejs",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://nodejs.org/dist/v6.10.0/node-v6.10.0.tar.gz",
+                    "path": "node-v6.10.0.tar.gz",
+                    "sha256": "01dae00dc0faa37a4b7a84098e2f04631827fc42e319eb66ccc3ab1d561ea42d"
+                }
+            ]
+        },
+        {
+            "name": "vscode",
+            "build-options": {
+                "build-args": [
+                    "--share=network"
+                ]
+            },
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/Microsoft/vscode",
+                    "branch": "release/1.10",
+                    "dest": "app"
+                },
+                {
+                    "type": "file",
+                    "path": "vscode/Makefile"
+                },
+                {
+                    "type": "file",
+                    "path": "common/configure"
+                }
+            ]
+        },
+        {
+            "name": "resources",
+            "sources": [
+                {
+                    "type": "file",
+                    "path": "common/configure"
+                },
+                {
+                    "type": "file",
+                    "path": "resources/Makefile"
+                },
+                {
+                    "type": "file",
+                    "path": "resources/install"
+                },
+                {
+                    "type": "file",
+                    "path": "resources/com.visualstudio.Vscode.png"
+                },
+                {
+                    "type": "file",
+                    "path": "resources/com.visualstudio.Vscode.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "resources/com.visualstudio.Vscode.appdata.xml"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.visualstudio.Vscode.desktop</id>
+  <name>Visual Studio Code</name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <summary>Source Code Editor</summary>
+  <description>
+    <p>
+      Code editing.Redefined. Free. Open source. Runs everywhere.
+    </p>
+  </description>
+  <url type="homepage">https://code.visualstudio.com/</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://code.visualstudio.com/home/home-screenshot-linux-lg.png</image>
+    </screenshot>
+  </screenshots>
+  <project_license>MIT</project_license>
+  <developer_name>Microsoft</developer_name>
+  <url type="bugtracker">https://github.com/Microsoft/vscode/issues</url>
+  <url type="help">https://stackoverflow.com/questions/tagged/vscode</url>
+</component>

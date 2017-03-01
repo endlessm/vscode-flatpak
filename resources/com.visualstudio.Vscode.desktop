@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Visual 
+GenericName=Source Code Editor
+Comment=Code editing.Redefined. Free. Open source. Runs everywhere.
+Exec=vscode
+Icon=com.visualstudio.Vscode
+Terminal=false
+Categories=Development;IDE;

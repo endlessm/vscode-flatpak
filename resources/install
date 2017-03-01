@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+set -e
+
+prefix=$(cat prefix)
+
+install -D 'com.visualstudio.Vscode.desktop' "${prefix}/share/applications/com.visualstudio.Vscode.desktop"
+install -D 'com.visualstudio.Vscode.png' "${prefix}/share/icons/hicolor/128x128/apps/com.visualstudio.Vscode.png"
+install -D 'com.visualstudio.Vscode.appdata.xml' "${prefix}/share/appdata/com.visualstudio.Vscode.appdata.xml"
