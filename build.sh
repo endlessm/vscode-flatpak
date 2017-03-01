@@ -13,6 +13,6 @@ flatpak-builder \
     --require-changes \
     --repo=repo \
     --arch=$(flatpak --default-arch) \
-    --subject="build of com.visualstudio.Vscode, $(date)" \
+    --subject="build of com.visualstudio.code.oss, $(date)" \
     build \
-    com.visualstudio.Vscode.json
+    com.visualstudio.code.oss.json

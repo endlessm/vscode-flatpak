@@ -1,5 +1,5 @@
 {
-    "app-id": "com.visualstudio.Vscode",
+    "app-id": "com.visualstudio.code.oss",
     "base": "io.atom.electron.BaseApp",
     "base-version": "master",
     "runtime": "org.freedesktop.Platform",
