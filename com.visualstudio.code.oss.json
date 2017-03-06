@@ -48,16 +48,6 @@
             ]
         },
         {
-            "name": "imageMagik",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://www.imagemagick.org/download/ImageMagick-6.9.7-9.tar.gz",
-                    "sha256": "34c4a352318408ca5f26c5e723779d8a7b189a0b56e0a3e3c268af22978887c5"
-                }
-            ]
-        },
-        {
             "name": "vscode",
             "build-options": {
                 "build-args": [
