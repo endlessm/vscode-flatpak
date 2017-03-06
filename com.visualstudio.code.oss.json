@@ -2,7 +2,7 @@
     "app-id": "com.visualstudio.code.oss",
     "base": "io.atom.electron.BaseApp",
     "base-version": "master",
-    "runtime": "org.freedesktop.Platform",
+    "runtime": "org.freedesktop.Sdk",
     "runtime-version": "1.4",
     "sdk": "org.freedesktop.Sdk",
     "command": "code-oss",
