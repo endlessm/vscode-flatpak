@@ -6,6 +6,7 @@
     "runtime-version": "1.4",
     "sdk": "org.freedesktop.Sdk",
     "command": "code-oss",
+    "rename-icon": "com.visualstudio.code.oss",
     "finish-args": [
         "--share=ipc",
         "--socket=x11",
