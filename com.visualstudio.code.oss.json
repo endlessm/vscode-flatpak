@@ -79,7 +79,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Microsoft/vscode",
-                    "branch": "release/1.10"
+                    "branch": "release/1.18"
                 },
                 {
                     "type": "file",
