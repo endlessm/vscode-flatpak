@@ -106,7 +106,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/Microsoft/vscode",
-                    "branch": "release/1.18"
+                    "branch": "1.10.2"
                 },
                 {
                     "type": "file",
